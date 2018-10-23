@@ -1,0 +1,210 @@
+/* COLORS:
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea; */
+
+
+/* responsive queries */
+
+
+
+/* end of queries */
+
+* {
+  box-sizing: border-box;
+  margin:  0;
+  padding: 0;
+}
+
+body {
+      font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+      color: #424242;
+      line-height: 1.4;
+      text-align: center;
+    }
+
+
+.container {
+        margin: .5em auto;
+        max-width: 400px;
+        text-align: center;
+      }
+
+.smallerContainer {
+        margin: 1em auto;
+        max-width: 390px;
+        text-align: center;
+
+}
+.smallestcontainer {
+  max-width: 250px;
+  text-align: justify;
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+}
+
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* this should round corners like the previous card */
+  margin: 2px auto;
+  text-align: center;
+  /* max-width: 300px; */
+}
+
+
+
+
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+
+
+/* Progress bar */
+
+#myProgress {
+    width: 100%;
+    background-color: white;
+}
+
+
+
+#myBar {
+    width: 80%;
+    height: 30px;
+    background-color: #EF5F3C;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white;
+    border-radius: 3px;
+}
+
+/*  within the second card2 */
+
+
+
+
+
+mark.red {
+    color:#EF5F3C;
+    background: none;
+}
+
+h3 {
+  color: #777;
+}
+
+ .blue {
+  color: #20A1D4;
+  text-align: center;
+  position: relative;
+}
+
+/*  button's */
+
+.button {
+    background-color: #1CBC2C;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+.button2 {
+    background-color: #eaeaea;
+    border: none;
+    color: #777;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px auto;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+/* end of buttons */
+.text {
+  border: ;
+  padding: 10px 32px;
+  display: inline-block;
+  margin: 4px 2px;
+
+}
+
+/* text area */
+
+
+
+/* end of text */
+
+
+#h2 {
+  background-color: #777;
+
+}
+
+h2 {
+  color: white;
+}
